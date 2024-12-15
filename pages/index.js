@@ -71,9 +71,9 @@ const Home = () => (
         <Paragraph>
           Melody is a full-stack developer based in the DMV area.
           She graduated from the College of William & Mary with a B.S in Computer Science
-          and a minor in Innovation & Entrepreneurship. She's passionate about web development,
+          and a minor in Innovation & Entrepreneurship. She&apos;s passionate about web development,
           systems design, and is committed to honing her skills as a programmer with 
-          a focus on various programming languages and tech stacks. When she's not coding at her 
+          a focus on various programming languages and tech stacks. When she&apos;s not coding at her 
           desk, you can find her walking outside and snapping pictures of the local plant 
           and wildlife or practicing any of the 5 instruments she can play (Piano, Cello, Ukulele, 
           Irish Tin Whistle, & Castanets).
