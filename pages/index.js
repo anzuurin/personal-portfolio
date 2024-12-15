@@ -109,7 +109,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2024 to present</BioYear>
-          Keep doing what I'm doing!
+          Keep doing what I&apos;m doing!
         </BioSection>
       </Section>
 
