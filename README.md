@@ -4,9 +4,7 @@
 
 ## Resource
 
-Built using this tutorial:
-
-[![YouTube thumbnail](./doc/thumb.png)](https://www.youtube.com/watch?v=bSMZgXzC9AA)
+Built using this [tutorial](https://www.youtube.com/watch?v=bSMZgXzC9AA)
 
 ## Stack
 
