@@ -4,6 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbNavalChatbot from '../public/images/works/naval_chatbot_thumbnail.png'
+import thumbMonkeyClass from '../public/images/works/monkey_selfie.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -46,8 +47,8 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="tbd" title="TBD" thumbnail={thumbNavalChatbot}>
-            Coming soon.
+          <WorkGridItem id="monkeyClassification" title="Monkey Classification" thumbnail={thumbMonkeyClass}>
+            A CNN trained on the kaggle dataset of 10 monkey species.
           </WorkGridItem>
         </Section>
         <Section delay={0.6}>
