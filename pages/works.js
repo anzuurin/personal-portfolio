@@ -21,21 +21,21 @@ const Works = () => (
         </Section>
       </SimpleGrid>
 
-      <Section delay={0.2}>
+      {/* <Section delay={0.2}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
           Other Works
         </Heading>
-      </Section>
+      </Section> */}
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      {/* <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem id="tbd" title="TBD" thumbnail={thumbNavalChatbot}>
             Coming soon.
           </WorkGridItem>
         </Section>
-      </SimpleGrid>
+      </SimpleGrid> */}
 
       <Section delay={0.4}>
         <Divider my={6} />
@@ -51,11 +51,11 @@ const Works = () => (
             A CNN trained on the kaggle dataset of 10 monkey species.
           </WorkGridItem>
         </Section>
-        <Section delay={0.6}>
+        {/* <Section delay={0.6}>
           <WorkGridItem id="tbd" title="TBD" thumbnail={thumbNavalChatbot}>
             Coming soon.
           </WorkGridItem>
-        </Section>
+        </Section> */}
       </SimpleGrid>
     </Container>
   </Layout>
