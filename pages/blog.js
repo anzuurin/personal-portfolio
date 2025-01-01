@@ -1,23 +1,31 @@
 import NextLink from 'next/link'
-import { Container, Heading, Box } from '@chakra-ui/react'
-import Layout from '../components/layouts/article'
+import { Link, Container, Heading, Box, Stack } from '@chakra-ui/react'
+import Layout from '../components/layouts/article.js'
+import Section from '../components/section'
 
-const Blog = () => (
+const Blogs = () => (
     <Layout>
         <Container>
-            <Heading as="h3" fontSize={20} mb={4}>
+            <Heading as="h2" varient="page-title">
                 Blog
             </Heading>
-            <Box>
-                <NextLink href="/blog/hello-world" passHref>
-                    <Heading as="h4" fontSize={16} mb={2} cursor="pointer">
-                        Hello World
-                    </Heading>
-                </NextLink>
-                <Box>
-                    <p>My first blog post!</p>
-                </Box>
-            </Box>
+            <p> Melody's musings.</p>
+            
+            <Section delay={0.1}>
+                <Heading as="h3" variant="section-title">
+                    Recent Posts
+                </Heading>
+                <Stack>
+                    <Link 
+                    as={NextLink} 
+                    href="/blogs/2024-year-in-review" 
+                    variant="plain">
+                        2024: Year in Review</Link>
+                </Stack>
+            </Section>
         </Container>
     </Layout>
 );
+
+export default Blogs
+export { getServerSideProps } from '../components/chakra'
