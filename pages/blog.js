@@ -1,5 +1,5 @@
 import NextLink from 'next/link'
-import { Link, Container, Heading, Box, Stack } from '@chakra-ui/react'
+import { Link, Container, Heading, Stack } from '@chakra-ui/react'
 import Layout from '../components/layouts/article.js'
 import Section from '../components/section'
 
@@ -9,7 +9,7 @@ const Blogs = () => (
             <Heading as="h2" varient="page-title">
                 Blog
             </Heading>
-            <p> Melody's musings.</p>
+            <p> Melody&apos;s musings.</p>
             
             <Section delay={0.1}>
                 <Heading as="h3" variant="section-title">
